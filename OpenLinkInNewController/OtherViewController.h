@@ -12,4 +12,6 @@
 
 @property (nonatomic, strong) UIWebView *webView;
 
+-(id)initWithRequest:(NSURLRequest*)request;
+
 @end
